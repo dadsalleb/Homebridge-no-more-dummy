@@ -1,3 +1,4 @@
+const { exec } = require("child_process");
 "use strict";
 
 var Service, Characteristic, HomebridgeAPI;
