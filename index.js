@@ -1,5 +1,5 @@
-const { exec } = require("child_process");
 "use strict";
+const { exec } = require("child_process");
 
 var Service, Characteristic, HomebridgeAPI;
 const { HomebridgeDummyVersion } = require('./package.json');
